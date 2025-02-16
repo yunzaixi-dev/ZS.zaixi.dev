@@ -5,7 +5,12 @@
 以及:https://github.com/yunzaixi-dev/YOUChat_Proxy  
 在开始前,你需要拥有一台海外vps(请参考其它教程获取),并注册[Zeabur](https://zeabur.com?referralCode=yunzaixi)账号  
 若您是开发人员,拥有强大的运维基础,可以跳过本教程直接阅读zeabur官方文档  
-VPS的最低配置为2GB内存,而且必须为海外ip  
+:::
+
+::: warning
+请注意,VPS的最低配置为2GB内存,推荐使用ubuntu系统,而且必须为海外ip,响应速度取决于ip质量  
+请检查VPS的防火墙是否关闭  
+请确认VPS的密码是否填写正确(是否有多余空格)  
 :::
 
 ## 1. 注册Zeabur
