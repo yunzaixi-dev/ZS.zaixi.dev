@@ -3,13 +3,14 @@
 ::: tip
 本项目基于:https://github.com/YIWANG-sketch/YOUChat_Proxy  
 以及:https://github.com/yunzaixi-dev/YOUChat_Proxy  
-在开始前,你需要拥有一台海外vps(请参考其它教程获取),并注册[Zeabur](https://zeabur.com)账号  
+在开始前,你需要拥有一台海外vps(请参考其它教程获取),并注册[Zeabur](https://zeabur.com?referralCode=yunzaixi)账号  
 若您是开发人员,拥有强大的运维基础,可以跳过本教程直接阅读zeabur官方文档  
+VPS的最低配置为2GB内存,而且必须为海外ip  
 :::
 
 ## 1. 注册Zeabur
 ::: tip
-首先登录[Zeabur](https://zeabur.com)  
+首先注册并登录[Zeabur](https://zeabur.com?referralCode=yunzaixi)  
 :::
 ![alt text](image.png)  
 ::: tip
