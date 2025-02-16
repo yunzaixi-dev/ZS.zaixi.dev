@@ -1,0 +1,95 @@
+:root {
+  --vp-c-brand: rgb(129, 137, 247);
+  --vp-c-brand-light: rgb(149, 157, 255);
+  --vp-c-brand-lighter: rgb(169, 177, 255);
+  --vp-c-brand-dark: rgb(109, 117, 227);
+  --vp-c-brand-darker: rgb(89, 97, 207);
+}
+
+/* 设置背景图片 */
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Logo水印 */
+.VPDoc::before {
+  content: '';
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background-image: url('/logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* 侧边栏背景 */
+.VPSidebar {
+  background-color: rgb(236, 237, 252) !important;
+  backdrop-filter: none !important;
+  border: none !important;
+}
+
+/* 导航栏基础样式 */
+.VPNavBar {
+  border: none !important;
+  backdrop-filter: blur(4px) !important;
+}
+
+/* 清除标题背景 */
+.VPNavBarTitle {
+  background: transparent !important;
+  border: none !important;
+}
+
+
+/* 标题链接样式 */
+a.title {
+  background: transparent !important;
+  height: var(--vp-nav-height) !important;
+  line-height: var(--vp-nav-height) !important;
+  padding: 0 24px !important;
+}
+
+/* 暗色模式适配 */
+.dark body::before {
+  opacity: 0.08;
+  filter: brightness(0.3);
+}
+
+.dark .VPDoc::before {
+  filter: invert(1);
+  opacity: 0.03;
+}
+
+/* 暗色模式下的侧边栏和标题区域 */
+.dark .VPSidebar {
+  background-color: rgba(159, 117, 255, 0.1) !important;
+}
+
+.dark .VPNavBar {
+  background: rgba(36, 36, 36, 0.95) !important;
+}
