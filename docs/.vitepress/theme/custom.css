@@ -12,6 +12,7 @@ body {
   min-height: 100vh;
 }
 
+/* 背景图片 */
 body::before {
   content: '';
   position: fixed;
@@ -49,29 +50,37 @@ body::before {
 /* 侧边栏背景 */
 .VPSidebar {
   background-color: rgb(236, 237, 252) !important;
-  backdrop-filter: none !important;
-  border: none !important;
 }
 
-/* 导航栏基础样式 */
-.VPNavBar {
-  border: none !important;
-  backdrop-filter: blur(4px) !important;
+/* 导航栏样式 */
+.VPNavBar,
+.VPNavBar.has-sidebar {
+  background: rgba(255, 255, 255, 0.95) !important;
+  width: 100vw !important;
+  left: 0 !important;
+  right: 0 !important;
+  position: fixed !important;
 }
 
-/* 清除标题背景 */
-.VPNavBarTitle {
+/* 导航栏内容区域样式 */
+.VPNavBar .content-body {
   background: transparent !important;
-  border: none !important;
 }
 
-
-/* 标题链接样式 */
-a.title {
+/* 搜索框容器样式 */
+.VPNavBarSearch {
   background: transparent !important;
-  height: var(--vp-nav-height) !important;
-  line-height: var(--vp-nav-height) !important;
-  padding: 0 24px !important;
+}
+
+.dark .VPNavBarSearch {
+  background: transparent !important;
+}
+
+.VPNavBar .container {
+  width: 100% !important;
+  max-width: var(--vp-layout-max-width) !important;
+  padding: 0 32px !important;
+  margin: 0 auto !important;
 }
 
 /* 暗色模式适配 */
@@ -90,6 +99,7 @@ a.title {
   background-color: rgba(159, 117, 255, 0.1) !important;
 }
 
-.dark .VPNavBar {
+.dark .VPNavBar,
+.dark .VPNavBar.has-sidebar {
   background: rgba(36, 36, 36, 0.95) !important;
 }
