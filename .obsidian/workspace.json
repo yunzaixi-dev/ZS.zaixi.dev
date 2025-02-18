@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "a65bd70bb00d1d9a",
+    "type": "split",
+    "children": [
+      {
+        "id": "985bed2fe3591e11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3eda672c11499e0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/proxy/youchat_proxy_v1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "youchat_proxy_v1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b5bf9ed89f0921ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "15bbf572582a2932",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9dd4d2aa648353a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "95d5c7ebaf12b714",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "3486f02a1b259651",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b29d9ce37522a4c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f3575ecc14b37df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "770b4ca1dedcdb86",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/proxy/youchat_proxy_v1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "youchat_proxy_v1 的反向链接列表"
+            }
+          },
+          {
+            "id": "22a3e383155920d7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/proxy/youchat_proxy_v1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "youchat_proxy_v1 的出链列表"
+            }
+          },
+          {
+            "id": "169b105dbf065506",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "8fb0fc28f1922fcd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/proxy/youchat_proxy_v1.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "youchat_proxy_v1 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "3eda672c11499e0b",
+  "lastOpenFiles": [
+    "docs/sillytavern/image-15.png",
+    "docs/sillytavern/image-14.png",
+    "docs/sillytavern/image-13.png",
+    "docs/sillytavern/image-12.png",
+    "docs/sillytavern/image-11.png",
+    "docs/sillytavern/image-10.png",
+    "docs/sillytavern/image-9.png",
+    "docs/sillytavern/project.yaml",
+    "docs/sillytavern/sillytavern_auto_update_v1.md",
+    "docs/sillytavern/sillytavern_auto_upgrate_v1.md",
+    "docs/sillytavern.md",
+    "docs/sillytavern/sillytavern.md",
+    "docs/sillytavern/sillytavern_deploy_v1.md",
+    "docs/proxy/youchat_proxy_v1.md",
+    "docs/reverse-proxy.md",
+    "docs/sillytavern/image.png"
+  ]
+}

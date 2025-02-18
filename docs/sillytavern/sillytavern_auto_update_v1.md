@@ -1,8 +1,7 @@
-# 使用Zeabur一键部署YOU反代服务
+# 使用Zeabur一键部署自动更新的云酒馆
 
 ::: tip
-本项目基于:https://github.com/YIWANG-sketch/YOUChat_Proxy  
-以及:https://github.com/yunzaixi-dev/YOUChat_Proxy  
+本项目基于酒馆官方源代码仓库  
 在开始前,你需要拥有一台海外vps(请参考其它教程获取),并注册[Zeabur](https://zeabur.com?referralCode=yunzaixi)账号  
 若您是开发人员,拥有强大的运维基础,可以跳过本教程直接阅读zeabur官方文档  
 :::
@@ -11,6 +10,7 @@
 请注意,VPS的最低配置为2GB内存,推荐使用ubuntu系统,而且必须为海外ip,响应速度取决于ip质量  
 请检查VPS的防火墙是否关闭  
 请确认VPS的密码是否填写正确(是否有多余空格)  
+酒馆延迟取决于vps ip地址与你的物理距离  
 :::
 
 ## 1. 注册Zeabur
@@ -45,49 +45,35 @@
 :::
 ![alt text](image-7.png)  
 
-## 3. 部署YOU反代服务
+## 3. 部署云酒馆服务
 ::: tip
 首先回到项目界面,新建项目,按New Project按钮  
 :::
 ![alt text](image-8.png)  
-
 ::: tip
-选template,输入搜索youchat-proxy(是的,这个模板我刚公开)
-:::
-![alt text](image-9.png)  
-
-::: tip
-点击容器,进入setting界面,点击open config editer输入cookie  
-这里的cookie需要前往you.com按f12输入console.log(document.cookie)获取  
-:::
-![alt text](image-10.png)  
-
-::: tip
-填写完后,看看这里
-这里的参数决定api的轮询模式以及api_key(也就是password),可以查看
-:::
-![alt text](image-11.png)
-
-::: tip
-完成以上步骤后,点击重启Restart  
-:::
-![alt text](image-12.png)
-
-::: tip
-然后进入网络界面,生成一个域名(免费的),你也可以使用自己的域名
-:::
-![alt text](image-13.png)
-
-::: tip
-然后在你的浏览器输入你的域名,就可以看到你的YOU反代服务了
+进入项目后点击add service,搜索leinao-sillytavern部署
 :::
 ![alt text](image-14.png)
-
 ::: tip
-完成后,反代api就可以在酒馆中使用了,密钥就是zeabur上variable界面的password
+等待部署完成,如图所示
+:::
+![alt text](image-9.png)
+::: tip
+进入network界面,点击generate domain获取免费或是使用自己域名  
+免费域名可能提供得比较慢  
+:::
+![alt text](image-12.png)
+::: tip
+创建域名,点确定,等待域名提供
+:::
+![alt text](image-13.png)
+::: tip
+接下来用您的任意设备访问域名,就可以使用酒馆了
+默认密码: root
+默认密码: a20250219
+建议前往setting --> config editer界面修改密码
 :::
 ![alt text](image-15.png)
-
 ::: tip
 完结撒花
 :::

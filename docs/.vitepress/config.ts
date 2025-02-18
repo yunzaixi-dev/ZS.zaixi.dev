@@ -54,11 +54,21 @@ export default defineConfig({
             link: '/'
           },
           {
+            text: '❤️ 云酒馆',
+            link: '/sillytavern',
+            items: [
+                {
+                    text: '❤️ 一键部署云酒馆',
+                    link: '/sillytavern/sillytavern_auto_update_v1',
+                }
+            ]
+          },
+          {
             text: '🔄 反向代理',
             link: '/reverse-proxy',
             items: [
                 {
-                    text: '🔄 使用Zeabur部署',
+                    text: '🔄 一键部署反向代理',
                     link: '/proxy/youchat_proxy_v1',
                 }
             ]

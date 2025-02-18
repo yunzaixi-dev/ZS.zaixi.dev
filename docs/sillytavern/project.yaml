@@ -1,0 +1,126 @@
+# yaml-language-server: $schema=https://schema.zeabur.app/template.json
+apiVersion: zeabur.com/v1
+kind: Template
+metadata:
+    name: leinao-sillytavern
+spec:
+    icon: https://media-hosting.imagekit.io//431815c7a7a345f8/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_20250217_013301.png?Expires=1834335216&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=lkgMiuyHl-dqlzx50EMX5abu0WWSHRJ4Z~lIjFi5H-F6DBzdbU8JP7LegTS~HFzYmYq3d~MouajcJZTsLJg~fTug1f0T6KHa~mTy7ZLLcXaIafTmk8koW68IQZmkP6~5BYaOE0CJJMJrHNj1w9Unm509EkexCb-inb20kd85C86Ih-z2kBUhbFjzIGElUv9whuePsdnEsdDkp8gDaE~yInGuhLjH2pH1vnySxKrjUn2ZVF3AkNnBNCD3Q4l1kM1E-U87ilqRVUP8dR89Jp-arldDgDu-l21Rxchuv9BFatvE8AmONK7bkt9~Mw2QosMwSOGdIheqG2EC4Xc9DwbwgA__
+    coverImage: https://media-hosting.imagekit.io//431815c7a7a345f8/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_20250217_013301.png?Expires=1834335216&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=lkgMiuyHl-dqlzx50EMX5abu0WWSHRJ4Z~lIjFi5H-F6DBzdbU8JP7LegTS~HFzYmYq3d~MouajcJZTsLJg~fTug1f0T6KHa~mTy7ZLLcXaIafTmk8koW68IQZmkP6~5BYaOE0CJJMJrHNj1w9Unm509EkexCb-inb20kd85C86Ih-z2kBUhbFjzIGElUv9whuePsdnEsdDkp8gDaE~yInGuhLjH2pH1vnySxKrjUn2ZVF3AkNnBNCD3Q4l1kM1E-U87ilqRVUP8dR89Jp-arldDgDu-l21Rxchuv9BFatvE8AmONK7bkt9~Mw2QosMwSOGdIheqG2EC4Xc9DwbwgA__
+    description: LLM Frontend for Power Users.
+    services:
+        - name: sillytavern
+          icon: https://media-hosting.imagekit.io//431815c7a7a345f8/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_20250217_013301.png?Expires=1834335216&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=lkgMiuyHl-dqlzx50EMX5abu0WWSHRJ4Z~lIjFi5H-F6DBzdbU8JP7LegTS~HFzYmYq3d~MouajcJZTsLJg~fTug1f0T6KHa~mTy7ZLLcXaIafTmk8koW68IQZmkP6~5BYaOE0CJJMJrHNj1w9Unm509EkexCb-inb20kd85C86Ih-z2kBUhbFjzIGElUv9whuePsdnEsdDkp8gDaE~yInGuhLjH2pH1vnySxKrjUn2ZVF3AkNnBNCD3Q4l1kM1E-U87ilqRVUP8dR89Jp-arldDgDu-l21Rxchuv9BFatvE8AmONK7bkt9~Mw2QosMwSOGdIheqG2EC4Xc9DwbwgA__
+          coverImage: https://media-hosting.imagekit.io//431815c7a7a345f8/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_20250217_013301.png?Expires=1834335216&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=lkgMiuyHl-dqlzx50EMX5abu0WWSHRJ4Z~lIjFi5H-F6DBzdbU8JP7LegTS~HFzYmYq3d~MouajcJZTsLJg~fTug1f0T6KHa~mTy7ZLLcXaIafTmk8koW68IQZmkP6~5BYaOE0CJJMJrHNj1w9Unm509EkexCb-inb20kd85C86Ih-z2kBUhbFjzIGElUv9whuePsdnEsdDkp8gDaE~yInGuhLjH2pH1vnySxKrjUn2ZVF3AkNnBNCD3Q4l1kM1E-U87ilqRVUP8dR89Jp-arldDgDu-l21Rxchuv9BFatvE8AmONK7bkt9~Mw2QosMwSOGdIheqG2EC4Xc9DwbwgA__
+          template: PREBUILT_V2
+          spec:
+            source:
+                source: GITHUB
+                repo: 929459222
+                branch: release
+                rootDirectory: /
+            ports:
+                - id: web
+                  port: 8000
+                  type: HTTP
+            env:
+                PORT:
+                    default: ${WEB_PORT}
+                    expose: false
+            configs:
+                - path: /home/node/app/config.yaml
+                  template: |
+                    dataRoot: ./data
+                    cardsCacheCapacity: 100
+                    listen: true
+                    listenAddress:
+                      ipv4: 0.0.0.0
+                      ipv6: "[::]"
+                    protocol:
+                      ipv4: true
+                      ipv6: false
+                    dnsPreferIPv6: false
+                    autorunHostname: auto
+                    port: 8000
+                    autorunPortOverride: -1
+                    whitelistMode: false
+                    enableForwardedWhitelist: false
+                    whitelist:
+                      - ::1
+                      - 127.0.0.1
+                    basicAuthMode: true
+                    basicAuthUser:
+                      username: root
+                      password: a20250219
+                    enableCorsProxy: false
+                    requestProxy:
+                      enabled: false
+                      url: socks5://username:password@example.com:1080
+                      bypass:
+                        - localhost
+                        - 127.0.0.1
+                    enableUserAccounts: false
+                    enableDiscreetLogin: false
+                    autheliaAuth: false
+                    perUserBasicAuth: false
+                    minLogLevel: 0
+                    sessionTimeout: -1
+                    cookieSecret: ReRRJ71U0wQcvkqs4Lt9ABfkOmuOdRW9P7TAiKy4uStWJk87q7tdHx/ULJM0hRFYd5VMVS+cWKgjGSztxSVDVg==
+                    disableCsrfProtection: false
+                    securityOverride: false
+                    autorun: true
+                    avoidLocalhost: false
+                    backups:
+                      common:
+                        numberOfBackups: 50
+                      chat:
+                        enabled: true
+                        maxTotalBackups: -1
+                        throttleInterval: 10000
+                    thumbnails:
+                      enabled: true
+                      format: jpg
+                      quality: 95
+                      dimensions:
+                        bg:
+                          - 160
+                          - 90
+                        avatar:
+                          - 96
+                          - 144
+                    allowKeysExposure: false
+                    skipContentCheck: false
+                    whitelistImportDomains:
+                      - localhost
+                      - cdn.discordapp.com
+                      - files.catbox.moe
+                      - raw.githubusercontent.com
+                    requestOverrides: []
+                    extensions:
+                      enabled: true
+                      autoUpdate: true
+                      models:
+                        autoDownload: true
+                        classification: Cohee/distilbert-base-uncased-go-emotions-onnx
+                        captioning: Xenova/vit-gpt2-image-captioning
+                        embedding: Cohee/jina-embeddings-v2-base-en
+                        speechToText: Xenova/whisper-small
+                        textToSpeech: Xenova/speecht5_tts
+                    enableDownloadableTokenizers: true
+                    promptPlaceholder: "[Start a new chat]"
+                    openai:
+                      randomizeUserId: false
+                      captionSystemPrompt: ""
+                    deepl:
+                      formality: default
+                    mistral:
+                      enablePrefix: false
+                    ollama:
+                      keepAlive: -1
+                      batchSize: -1
+                    claude:
+                      enableSystemPromptCache: false
+                      cachingAtDepth: -1
+                    enableServerPlugins: false
+                    enableServerPluginsAutoUpdate: true
+                  permission: null
+                  envsubst: null
