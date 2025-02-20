@@ -24,11 +24,6 @@
 您可以问我关于云酒馆部署、反向代理配置等任何问题！
 :::
 
-<Chatbot 
-  :chatflowid="'b9c0d33d-a4a6-4d0a-b6da-44f255eb29d3'"
-  :apiHost="'https://flowise.zaixi.dev'"
-/>
-
 ## 🚀 开始使用
 
 相信这里的内容一定会让您有所收获！您可以：
@@ -44,3 +39,8 @@
 ## 🤝 感谢
 
 感谢您对本教程站的信任与支持！
+
+<Chatbot 
+  :chatflowid="'b9c0d33d-a4a6-4d0a-b6da-44f255eb29d3'"
+  :apiHost="'https://flowise.zaixi.dev'"
+/>
