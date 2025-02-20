@@ -1,9 +1,31 @@
-# Flowise Chatbot
+# 🤖 智识AI
 
-<script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
-    Chatbot.init({
-        chatflowid: "b9c0d33d-a4a6-4d0a-b6da-44f255eb29d3",
-        apiHost: "https://flowise.zaixi.dev",
-    })
-</script>
+欢迎智识AI！这是yunzaixi-dev站主为了解决大家的疑问专门设计的，它不仅能够回答您的问题，还能够：
+
+## 🌟 核心特点
+
+- 💡 **超强对话能力**：基于先进的大语言模型，能够理解复杂的语境和意图
+- 🎯 **专业知识库**：拥有丰富的专业知识，特别是在技术领域的问题解答
+- 🔄 **持续学习**：系统会不断学习和优化，为您提供越来越精准的回答
+
+## 💬 如何使用
+
+1. 直接在下方对话框中输入您的问题
+2. AI 助手会立即响应，为您提供专业的解答
+3. 您可以继续追问或者开启新的话题
+
+## 🚀 开始对话
+
+现在就来体验一下吧！您可以问我任何问题，比如：
+- "如何部署云酒馆？"
+- "反向代理怎么配置？"
+- "遇到问题怎么解决？"
+
+<Chatbot 
+  :chatflowid="'b9c0d33d-a4a6-4d0a-b6da-44f255eb29d3'"
+  :apiHost="'https://flowise.zaixi.dev'"
+/>
+
+::: tip 💡 小贴士
+对话越详细，AI 助手的回答就越准确。如果回答不够满意，您可以通过追问来获取更多信息！
+:::

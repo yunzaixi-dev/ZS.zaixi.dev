@@ -11,6 +11,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
     ['link', { rel: 'apple-touch-icon', href: '/logo.png' }],
+    ['script', { type: 'module', src: '/web.js' }]
   ],
   
   themeConfig: {
@@ -54,6 +55,10 @@ export default defineConfig({
             link: '/'
           },
           {
+            text: '🤖 智识AI',
+            link: '/components/chatbot'
+          },
+          {
             text: '❤️ 云酒馆',
             link: '/sillytavern',
             items: [
@@ -75,8 +80,6 @@ export default defineConfig({
           }
         ]
       }
-    ],
-    
-    // 你可以在这里添加更多主题配置
+    ]
   }
 })

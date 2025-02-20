@@ -17,5 +17,8 @@
         "@algolia/client-search"
       ]
     }
+  },
+  "dependencies": {
+    "flowise-embed": "^2.1.2"
   }
 }

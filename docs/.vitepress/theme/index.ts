@@ -7,10 +7,11 @@ export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      'layout-bottom': () => h(Chatbot)
+      // Remove the layout-bottom slot since we'll use the component directly in markdown
     })
   },
   enhanceApp({ app }) {
-    // 如果需要注册组件，可以在这里添加
+    // Register the Chatbot component globally
+    app.component('Chatbot', Chatbot)
   }
 }
