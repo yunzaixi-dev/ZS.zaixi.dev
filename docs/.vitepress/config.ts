@@ -4,7 +4,7 @@ import { DefaultTheme } from 'vitepress/theme'
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
   // 网站标题
-  title: '类脑智识库分库',
+  title: '类脑智识库',
   // 网站说明
   description: 'Powered by yunzaixi-dev',
   // 网站图标配置
@@ -47,7 +47,7 @@ export default defineConfig({
     // 侧边栏配置
     sidebar: [
       {
-        text: '类脑智识库分库',
+        text: '类脑智识库',
         items: [
           {
             text: '🏠 首页',
