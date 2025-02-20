@@ -3,7 +3,7 @@
 ::: tip
 本分库基于VitePress构建,任何人都可以修改  
 欢迎提交pull request,AI将自动审核文档内容更新至网站  
-源码地址: https://github.com/yunzaixi-dev/leinao-docs  
+源码地址: https://github.com/yunzaixi-dev/Utopia  
 :::
 
 欢迎来到 类脑智识库 · ΓΝΩΣΗ WIKI，本智识库是类脑ΟΔΥΣΣΕΙΑ / 旅程ΟΡΙΖΟΝΤΑΣ(中文 SillyTavern(傻子酒馆) 社区) 的周边项目的周边项目。
