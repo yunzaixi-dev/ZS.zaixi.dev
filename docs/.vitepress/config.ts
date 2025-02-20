@@ -36,7 +36,7 @@ export default defineConfig({
       }
     },
     // 左上角的标题
-    siteTitle: "类脑智识库分库",
+    siteTitle: "类脑智识库",
     // logo配置
     logo: '/logo.png',
     // 社交链接
