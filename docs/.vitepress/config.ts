@@ -42,7 +42,7 @@ export default defineConfig({
     logo: '/logo.png',
     // 社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yunzaixi-dev/leinao.zaixi.dev' },
+      { icon: 'github', link: 'https://github.com/yunzaixi-dev/zs.zaixi.dev' },
       { icon: 'discord', link: 'https://discord.gg/8hJVPh8HbA' }
     ],
     // 侧边栏配置
