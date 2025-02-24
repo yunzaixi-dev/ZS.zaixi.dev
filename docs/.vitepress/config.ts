@@ -55,7 +55,7 @@ export default defineConfig({
             link: '/'
           },
           {
-            text: '🤖 智识AI',
+            text: '🤖 关于智识AI',
             link: '/components/chatbot'
           },
           {
