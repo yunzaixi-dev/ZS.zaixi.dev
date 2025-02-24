@@ -1,8 +1,6 @@
 # 使用Zeabur一键部署YOU反代服务
 
 ::: tip
-本项目基于:https://github.com/YIWANG-sketch/YOUChat_Proxy  
-以及:https://github.com/yunzaixi-dev/YOUChat_Proxy  
 在开始前,你需要拥有一台海外vps(请参考其它教程获取),并注册[Zeabur](https://zeabur.com?referralCode=yunzaixi)账号  
 若您是开发人员,拥有强大的运维基础,可以跳过本教程直接阅读zeabur官方文档  
 :::
