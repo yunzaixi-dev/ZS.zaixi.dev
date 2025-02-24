@@ -3,7 +3,7 @@
 ::: tip
 本教程站遵循AGPL-3.0协议  
 欢迎提交pull request  
-源码地址: https://github.com/yunzaixi-dev/zs.zaixi.dev  
+源码地址: https://github.com/yunzaixi-dev/ZS.zaixi.dev  
 :::
 
 # 欢迎来到 <span class="blue-bold">智识ΑIEΣΣΥΔΟ</span>
