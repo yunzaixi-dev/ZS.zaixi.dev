@@ -6,10 +6,10 @@
 源码地址: https://github.com/yunzaixi-dev/leinao.zaixi.dev  
 :::
 
-# 🌟 欢迎来到类脑智识库
+# 🌟 欢迎来到智识ΑIEΣΣΥΔΟ
 
-欢迎来到 类脑智识库 · ΓΝΩΣΗ WIKI，这里是类脑ΟΔΥΣΣΕΙΑ / 旅程ΟΡΙΖΟΝΤΑΣ(中文 SillyTavern(傻子酒馆) 社区) 的周边项目。  
-答疑请前往: https://discord.gg/8hJVPh8HbA
+欢迎来到 智识ΑIEΣΣΥΔΟ (中文AI教程社区)
+答疑请前往discord: https://discord.gg/8hJVPh8HbA
 
 ## 🤝 感谢
 

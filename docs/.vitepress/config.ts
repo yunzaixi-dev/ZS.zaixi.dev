@@ -4,9 +4,9 @@ import { DefaultTheme } from 'vitepress/theme'
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
   // 网站标题
-  title: '类脑智识库',
+  title: '智识ΑIEΣΣΥΔΟ',
   // 网站说明
-  description: 'Powered by yunzaixi-dev',
+  description: 'Powered by zaixi.dev',
   // 网站图标配置
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
@@ -37,7 +37,7 @@ export default defineConfig({
       }
     },
     // 左上角的标题
-    siteTitle: "类脑智识库",
+    siteTitle: "智识ΑIEΣΣΥΔΟ",
     // logo配置
     logo: '/logo.png',
     // 社交链接
@@ -48,7 +48,7 @@ export default defineConfig({
     // 侧边栏配置
     sidebar: [
       {
-        text: '类脑智识库',
+        text: '智识ΑIEΣΣΥΔΟ',
         items: [
           {
             text: '🏠 首页',
