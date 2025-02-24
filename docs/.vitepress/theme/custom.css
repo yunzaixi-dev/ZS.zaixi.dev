@@ -6,6 +6,15 @@
   --vp-c-brand-darker: rgb(89, 97, 207);
 }
 
+.blue-text {
+  color: #3e7caf; /* 或使用 blue */
+}
+
+.blue-bold {
+  color: #3e7caf; /* 或使用 blue */
+  font-weight: bold;
+}
+
 /* 设置背景图片 */
 body {
   position: relative;
