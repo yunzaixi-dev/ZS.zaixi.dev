@@ -51,7 +51,7 @@
 :::
 ![alt text](image-8.png)  
 ::: tip
-进入项目后点击add service,搜索leinao-sillytavern部署
+进入项目后点击add service,搜索ZS-sillytavern部署
 :::
 ![alt text](image-14.png)
 ::: tip
