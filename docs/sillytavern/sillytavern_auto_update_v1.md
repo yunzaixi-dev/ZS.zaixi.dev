@@ -1,5 +1,10 @@
 # 使用Zeabur一键部署自动更新的云酒馆
 
+::: warning
+本站已经迁移至 https://zsai.org
+全面升级了UI,以及功能性，欢迎使用我们的新教程站！
+:::
+
 ::: tip
 本项目基于酒馆官方源代码仓库  
 在开始前,你需要拥有一台海外vps(请参考其它教程获取),并注册[Zeabur](https://zeabur.com?referralCode=yunzaixi)账号  
